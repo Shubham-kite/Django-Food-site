@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD</title>
+    <link rel="stylesheet" href="{% static './main.css' %}">
+    <link rel="stylesheet" href="{% static './desktop_view.css' %}">
+    <link rel="icon" href="{% static './web_icon' %}" type="image/x-icon">
+  
+</head>
+<body>
+    <div class="ddd" style = "position: fixed; top: 50%; left:50%; background-color: #000000; color: rgb(255, 255, 255); padding: 1rem;font-size: 0.8rem; z-index: 1000;opacity: 0.5;">
+        this website is currently under development
+    </div>
+    <div  class="menulist">
+        <h2><a href="#home">Home</a></h2>
+        <h2><a href="#services">Services</a></h2>
+        <h2><a href="#about">About Us</a></h2>
+        <h2><a href="#contacts">Contacts</a></h2>
+    </div>
+    <div class="navigation-bar">
+        
+        <div class="logo">Happy Meals</div>
+        <div class="menulist-desktop">
+            <h2><a href="#home">Home</a></h2>
+            <h2><a href="#services">Services</a></h2>
+            <h2><a href="#about">About Us</a></h2>
+            <h2><a href="#contacts">Contacts</a></h2>
+        </div>
+       
+        <!-- menu-close class added on click -->
+        <div class="menu">
+            
+            <span class="m1"> </span>
+            <span class="m2"> </span>
+            <span class="m3"> </span>
+        
+        </div>
+    
+    </div>
+
+
+
+<!-- section 1 main / hero section -->
+
+<section id="home" class="section1">
+    <h1>Our Motto is to bestow <br> fresh quality food at your <br> door step in most friendly fares.</h1>
+    <div class="login">
+        <h3><a href="./sign_up">SIGN-UP</a></h3> 
+        <h3><a href="./sign_in">LOGIN</a></h3>
+    </div>
+</section>
+
+<!-- services -->
+<section id="services" class="section2">
+    <h1>Services</h1>
+    <div class="cards">
+        <div  class="card1 card">
+            <div class="card-title">
+                <h3>Food-Menu</h3>
+            </div>
+            
+
+                <ul>
+                    <b>Per Plate Food items</b>
+                    
+                        <li>Dal</li>
+                        <li>Sabji</li>
+                        <li>Rice</li>
+                        <li>Chappati-3</li>
+                        <li>Salad</li>
+                        <li> 2 special meals / months</li>
+                    
+                </ul>
+    
+        </div>
+        <div  class="card2 card">
+            <div class="card-title">
+                <h3>Subscriptions</h3>
+            </div>
+           
+            <div class="subs">
+                <img src="{% static '/subscription.png' %}'" alt="subscription">
+              </div>
+        </div> 
+        <div class="card3 card">
+            <div class="card-title">
+                <h3>Other</h3>
+            </div>
+           
+            <h4>
+                <ul>
+                <li>Food-Delivery</li>
+                <li>Customer-Care</li>
+            </ul>
+        </h4>
+        </div>
+    </div>
+</section>
+<!-- about us -->
+<section id="about" class="section3">
+
+    <h1>About</h1>
+    <div class="about-info">
+        <h3>Happy Meals is a promising tiffin services in <abbr title="Pimpri-Chinchwad Municipal Corporation">PCMC</abbr>. We provide good meals with punctuality at your working tables in your preffered times for a week  month or a  year.Our catering enbles the typical Indian cuisines taste to reach your tongue </h3>
+    </div>
+    <h1>Why Happy Meals?</h1>
+    <div class="why-us">
+        <div class="why-us-info">
+            <h3>Fresh & Quality Home made Food.</h3>
+            <h3>Order on call / website.</h3>
+            <h3>Free Home Delivery.</h3>
+            <h3>Best & Flexible tiffin services.</h3>
+            <h3>Environment friendly Packaging of meals.</h3>
+            <h3>Alluring rewards and cashbacks for the recommendators.</h3>
+        </div>
+
+    </div>
+   
+    
+</section>
+
+
+<!-- contacts -->
+<section id="contacts" class="section4">
+    <h1>Contacts</h1>
+    <div class="contacts">
+        <div class="phone contact">
+            <div class="icon">
+    
+            </div>
+            <div class="txt">
+                +91 928 428 2726
+            </div>
+           
+        </div>
+        <div class="phone contact">
+            <div class="icon">
+    
+            </div>
+            <div class="txt">
+                +91 808 718 7274
+            </div>
+        </div>
+        <div class="email contact">
+    <div class="icon">
+    
+            </div>
+            <div class="txt">
+                happymealpune@gmail.com
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="terms">
+        <h5>
+            Terms and Conditions
+
+        </h5>
+        <h6>1) We offer this service on a 15 days and monthly basis</h6>
+        <h6>2) Advance Payment to start service </h6>
+        <h6>3) You can cancel anytime </h6>
+    </div>
+    </section>
+    <footer>
+
+    </footer>
+
+
+
+
+<!-- cta button , start a conversation -->
+<div class="cta ">
+    <svg  width="60px" height="60px" version="1.1" viewBox="0 0 52.917 52.917" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+        <g transform="matrix(.91429 0 0 .91429 71.133 -35.668)">
+         <path class="sac"  d="m-23.386 57.057a27.708 27.708 0 0 1-14.55 36.355 27.708 27.708 0 0 1-36.375-14.501 27.708 27.708 0 0 1 14.453-36.394 27.708 27.708 0 0 1 36.413 14.405" style="paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.9721"/>
+         <g transform="translate(72.062 4.5222)">
+          <g transform="translate(1.4929 1.6124)">
+           <path  d="m-133.65 49.541h20.432c2.2484 0 4.0537 1.8101 4.0584 4.0584l0.0495 23.658-5.1469-4.9698-19.393-0.07578c-2.2483-0.0088-4.0584-1.8101-4.0584-4.0584v-14.554c0-2.2484 1.81-4.0584 4.0584-4.0584z" style="fill:#fff;paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3055"/>
+           <g transform="matrix(.7361 0 0 .7361 -32.561 15.514)">
+            <rect class="line1" x="-136.06" y="54.129"  height="1.9791" ry=".98956" style="fill:#ff7f2a;paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:.265;stroke:#ff7f2a"/>
+            <rect class="line2" x="-136.06" y="58.467" width="25.234" height="1.9791" ry=".98956" style="fill:#ff7f2a;paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:.265;stroke:#ff7f2a"/>
+            <rect class="line3" x="-136.06" y="62.804" width="25.234" height="1.9791" ry=".98956" style="fill:#ff7f2a;paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:.265;stroke:#ff7f2a"/>
+            <rect class="line4" x="-136.06" y="67.142" width="25.234" height="1.9791" ry=".98956" style="fill:#ff7f2a;paint-order:stroke fill markers;stroke-linecap:round;stroke-linejoin:round;stroke-width:.265;stroke:#ff7f2a"/>
+           </g>
+          </g>
+         </g>
+        </g>
+       </svg>
+       <h3>
+        Start a Conversation
+    </h3>
+</div>
+
+
+<!-- scripts -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+<script src="{% static './script.js' %}"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+@media (min-width:720px) {
+
+    .section1 h1{
+        font-size: 2.8rem;
+        color: rgb(255, 255, 255);
+        margin:0;
+    }
+
+    .menulist-desktop{
+        position: absolute;
+        right: 2rem;
+        width: 50vw;
+        max-width: fit-content;
+        max-width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .menulist-desktop h2{
+
+        font-size: 1rem;
+       
+      
+
+    } 
+    .menulist-desktop a{
+        position: relative;
+        padding: 0.2rem 0.3rem;
+        transition: 0.4s;
+        border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+        
+    }
+    .menulist-desktop h2:hover a{
+    
+        /* background-color: rgb(255, 94, 0); */
+        /* border-radius: 2rem; */
+        color: rgb(255, 255, 255);
+        /* text-decoration: underline; */
+        border-bottom: 2px solid white;
+
+    }
+    .menu{
+        display: none;
+        pointer-events: none;
+
+    }
+    .menu span{
+        display: none;
+        pointer-events: none;
+        
+    }
+
+    .menulist{
+      
+        transform: translateY(0%);
+        display: none;
+        pointer-events: none;
+    
+    
+       
+    }
+
+
+ 
+}
+
+@media (min-width:860px) {
+
+
+    .section2 .cards{
+        margin:0 ;
+        display: flex;
+        padding: 1rem;
+        max-width: 1300px;
+        width: 90vw;
+        height: 80vh;
+        min-width: fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        background-color: rgb(250, 250, 250);
+       
+      
+    }
+
+    .card1,.card2,.card3{
+        height: 40vh;
+        min-height: fit-content;
+        max-height: fit-content;
+        width: 20vw;
+        max-width: 500px;
+        /* min-width: fit-content; */
+       padding-bottom:auto ;
+        margin: 0 .2rem;
+    
+       
+        
+    }
+    .card3 ul{
+        position: relative;
+        background-color:#ff9955ff ;
+        height: 150px;
+        width: 100%;
+        border-radius: 0.2rem;
+        padding: 0.2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction:column;
+    
+    }
+
+
+}
