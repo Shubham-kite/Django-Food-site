@@ -88,7 +88,6 @@ prompt-toolkit==3.0.20
 protobuf==3.17.3
 psutil==5.8.0
 pyarrow==5.0.0
-PyAudio @ file:///C:/Users/Shubham%20Kite/pipwin/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 pycparser==2.20
 pydeck==0.7.0
 Pygments==2.10.0
