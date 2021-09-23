@@ -1,1 +1,1 @@
-web: gunicorn Happy_Meals.wsgi 
+web: gunicorn Happy_Meals.wsgi
